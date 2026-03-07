@@ -1,21 +1,21 @@
 package src;
 
-public class Characters {
+public class Character {
     private String name;
     private int age;
     private double health;
-    private int mana;
-    private Weapons weapon;
-    private String race;
-    private int strength;
-    private int dexterity;
-    private int constitution;
-    private int intelligence;
-    private int wisdom;
-    private int charisma;
+    private double mana;
+    private Weapon weapon;
+ private Race race;
+    private double strength;
+    private double dexterity;
+    private double constitution;
+    private double intelligence;
+    private double wisdom;
+    private double charisma;
 
-    public Characters(String name, int age, String race, int strength, int dexterity,
-            int constitution, int intelligence, int wisdom, int charisma) {
+    public Character(String name, int age, Race race, double strength, double dexterity,
+            double constitution, double intelligence, double wisdom, double charisma) {
         this.name = name;
         this.age = age;
         this.race = race;
@@ -45,76 +45,71 @@ public class Characters {
         return this.age;
     }
 
-    public void setRace(String race) {
-        this.race = race;
-    }
-
-    public String getRace() {
-        return this.race;
-    }
+   public void setRace(Race race) { this.race = race; }
+public Race getRace() { return this.race; }
 
     public double getHealth() {
         return this.health;
     }
 
-    public int getMana() {
+    public double getMana() {
         return this.mana;
     }
 
-    public void setWeapon(Weapons weapon) {
+    public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
 
-    public Weapons getWeapon() {
+    public Weapon getWeapon() {
         return this.weapon;
     }
 
-    public void setStrength(int strength) {
-        this.strength = strength;
-    }
-
-    public int getStrength() {
+    public double getStrength() {
         return this.strength;
     }
 
-    public void setDexterity(int dexterity) {
-        this.dexterity = dexterity;
+    public void setStrength(double strength) {
+        this.strength = strength;
     }
 
-    public int getDexterity() {
+    public double getDexterity() {
         return this.dexterity;
     }
 
-    public void setConstitution(int constitution) {
-        this.constitution = constitution;
+    public void setDexterity(double dexterity) {
+        this.dexterity = dexterity;
     }
 
-    public int getConstitution() {
+    public double getConstitution() {
         return this.constitution;
     }
 
-    public void setIntelligence(int intelligence) {
-        this.intelligence = intelligence;
+    public void setConstitution(double constitution) {
+        this.constitution = constitution;
     }
 
-    public int getIntelligence() {
+    public double getIntelligence() {
         return this.intelligence;
     }
 
-    public void setWisdom(int wisdom) {
-        this.wisdom = wisdom;
+    public void setIntelligence(double intelligence) {
+        this.intelligence = intelligence;
     }
 
-    public int getWisdom() {
+    public double getWisdom() {
         return this.wisdom;
     }
 
-    public void setCharisma(int charisma) {
-        this.charisma = charisma;
+    public void setWisdom(double wisdom) {
+        this.wisdom = wisdom;
     }
 
-    public int getCharisma() {
+    public double getCharisma() {
         return this.charisma;
+    }
+
+    public void setCharisma(double charisma) {
+        this.charisma = charisma;
     }
 
     public String toString() {

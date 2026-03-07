@@ -1,11 +1,11 @@
 package src;
 
-public class Weapons {
+public class Weapon {
     private String type; //tipus
     private int damage; //dany
     private boolean magicPhysical; //magic o fisic
 
-    public Weapons(String type, int damage, boolean magicPhysical) {
+    public Weapon(String type, int damage, boolean magicPhysical) {
         this.type = type;
         this.damage = damage;
         this.magicPhysical = magicPhysical;

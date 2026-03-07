@@ -10,11 +10,11 @@ public class game {
         p.principal();
     }
     public void principal(){
-        ArrayList<Characters> character = new ArrayList<Characters>();
+        ArrayList<Character> character = new ArrayList<Character>();
         crearPJ(character);
 
     }
-    private void crearPJ(ArrayList<Characters> character) {
+    private void crearPJ(ArrayList<Character> character) {
       
     }
     Scanner sc = new Scanner(System.in);
