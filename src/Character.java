@@ -226,4 +226,6 @@ public class Character {
             System.out.println("Has evolucionat al nivell " + this.powerLevel + "!");
         }
     }
+
+
 }
